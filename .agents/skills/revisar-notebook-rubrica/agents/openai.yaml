@@ -1,0 +1,5 @@
+interface:
+  display_name: "Revisar notebook y rúbrica"
+  short_description: "Audita el entregable sin modificarlo"
+  default_prompt: "Compara el notebook ejecutado con la rúbrica y prioriza los faltantes antes de proponer cambios."
+

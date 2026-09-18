@@ -1,0 +1,5 @@
+interface:
+  display_name: "Microproyecto MLNS"
+  short_description: "Desarrolla el proyecto ODS siguiendo la rúbrica"
+  default_prompt: "Desarrolla la siguiente etapa del Microproyecto 2 y deja evidencia verificable en el notebook."
+
