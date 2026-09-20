@@ -12481,6 +12481,17 @@ error es la <strong>superposición temática</strong>, no el tamaño de la clase
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
+<p><strong>Lectura de la evaluación.</strong> En los 1.932 textos reservados, el modelo logra accuracy 0,858 y macro-F1 0,827, cercano al 0,822 medio de validación. El F1 ponderado (0,860) supera al macro-F1: el buen desempeño de clases numerosas favorece la media ponderada, mientras el promedio por clase revela mejor las dificultades. ODS 4 alcanza F1 0,95 y ODS 16 F1 0,94; ODS 8 baja a F1 0,55 y ODS 10 a 0,69. En la matriz, la confusión más frecuente es ODS 8 clasificado como ODS 10 (12 textos), seguida de ODS 5 como ODS 8 (11). Estas cifras señalan solapamientos temáticos posibles, pero no prueban por sí solas la causa de cada error.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell" id="cell-id=ae82765b">
+<div class="jp-Cell-inputWrapper" tabindex="0">
+<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
+</div>
+<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput" data-mime-type="text/markdown">
 <h2 id="11.-Evidencia-de-clasificaci%C3%B3n-en-textos-no-vistos">11. Evidencia de clasificación en textos no vistos<a class="anchor-link" href="#11.-Evidencia-de-clasificaci%C3%B3n-en-textos-no-vistos">¶</a></h2><p>Se muestran predicciones individuales sobre textos del <strong>conjunto de test</strong> (nunca usados para
 entrenar ni para elegir hiperparámetros): primero una muestra aleatoria (semilla fija) y después
 algunos errores informativos. Para cada texto se listan los tres ODS con mayor margen de decisión,
